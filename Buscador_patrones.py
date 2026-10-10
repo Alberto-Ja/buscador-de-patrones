@@ -15,4 +15,10 @@ def buscar_apariciones(texto, patron):
         return (True, contar, posiciones)   
     else:
         return (False, 0, [])  
-       
+
+    texto = input()
+    patron = input()
+
+    result = buscar_apariciones(texto, posiciones)
+    print(result)  
+    
